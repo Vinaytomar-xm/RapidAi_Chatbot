@@ -14,7 +14,7 @@ st.markdown("""<style>
 
 # ---------------- CONFIG ----------------
 st.set_page_config(
-    page_title="RapidAI Chatbot",
+    page_title="FuteeAI Chatbot",
     page_icon="🤖",
     layout="centered"
 )
@@ -188,7 +188,7 @@ with st.sidebar:
     st.caption("🆓 Free AI Chatbot")
 
 # ---------------- MAIN CHAT UI ----------------
-st.title("🤖 RapidAI Chatbot")
+st.title("🤖 FuteeAI Chatbot")
 st.caption("Fast & Free AI Assistant")
 
 st.divider()
@@ -241,5 +241,6 @@ if prompt := st.chat_input("Type your message..."):
     
     # Auto-save chat after every response
     save_current_chat()
+
 
 
