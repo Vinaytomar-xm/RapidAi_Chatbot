@@ -17,7 +17,7 @@ A powerful AI chatbot built with Streamlit and powered by Groq's lightning-fast 
 ## 🎥 Demo
 
 **[🔗 Try Live Demo Here][(_LIVE_DEMO_LINK_HERE)**
-](https://rapidai-chatbot.streamlit.app/)
+](https://futeeai-chatbot.streamlit.app/)
 
 ## 🚀 Quick Start
 
@@ -177,7 +177,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 Your Name -(https://linkedin.com/in/vinay-singh-tomar-5b65b9377)
-Project Link:(https://rapidai-chatbot.streamlit.app/)
+Project Link:(https://futeeai-chatbot.streamlit.app/)
 ## 🐛 Known Issues
 
 - Chat history is stored in session state (clears on page refresh in local dev)
