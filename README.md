@@ -117,23 +117,11 @@ git push origin main
 - Add your `GROQ_API_KEY` in Secrets
 - Deploy!
 
-3. **Add Secrets**
-In Streamlit Cloud dashboard:
-```toml
-GROQ_API_KEY = "your-groq-api-key-here"
-```
-
-### Alternative Deployment Options
-
-- **Hugging Face Spaces**: [huggingface.co/spaces](https://huggingface.co/spaces)
-- **Render**: [render.com](https://render.com)
-- **Railway**: [railway.app](https://railway.app)
-
 ## 📁 Project Structure
 ```
 ai-chatbot/
-├── app.py                  # Main application file
-├── requirements.txt        # Python dependencies
+├── Ai_chatbot.py          # Main application file
+├── requirements.txt       # Python dependencies
 ├── README.md              # This file
 ├── .gitignore             # Git ignore rules
 └── .streamlit/
