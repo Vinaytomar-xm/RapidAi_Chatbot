@@ -34,6 +34,7 @@ except (FileNotFoundError, KeyError):
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 # ---------------- FUNCTIONS ----------------
+@st.cache_data(show_spinner=False)
 def get_ai_response(messages, model):
     """Send messages to Groq and get response"""
     
@@ -241,6 +242,7 @@ if prompt := st.chat_input("Type your message..."):
     
     # Auto-save chat after every response
     save_current_chat()
+
 
 
 
